@@ -12,10 +12,9 @@ nurfweb.egg-info/SOURCES.txt
 nurfweb.egg-info/dependency_links.txt
 nurfweb.egg-info/entry_points.txt
 nurfweb.egg-info/not-zip-safe
-nurfweb.egg-info/requires.txt
 nurfweb.egg-info/top_level.txt
 nurfweb/static/pyramid-16x16.png
 nurfweb/static/pyramid.png
 nurfweb/static/theme.css
 nurfweb/static/theme.min.css
-nurfweb/templates/mytemplate.pt
+nurfweb/templates/mytemplate.mako

@@ -8,12 +8,12 @@ with open(os.path.join(here, 'README.md')) as f:
 with open(os.path.join(here, 'CHANGES.txt')) as f:
     CHANGES = f.read()
 
-requires = [
-    'pyramid',
-    'pyramid_chameleon',
-    'pyramid_debugtoolbar',
-    'gunicorn',
-    ]
+# requires = [
+#     'pyramid',
+#     'pyramid_chameleon',
+#     'pyramid_debugtoolbar',
+#     'gunicorn',
+#     ]
 
 setup(name='nurfweb',
       description='nurfweb',
@@ -27,8 +27,8 @@ setup(name='nurfweb',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
-      install_requires=requires,
-      tests_require=requires,
+      # install_requires=requires,
+      # tests_require=requires,
       test_suite="nurfweb",
       entry_points="""\
       [paste.app_factory]

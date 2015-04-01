@@ -1,0 +1,1 @@
+web: gunicorn --paste production.ini --log-file -
