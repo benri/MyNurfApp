@@ -1,1 +1,1 @@
-web: gunicorn --paste production.ini --log-file -
+web: gunicorn --paste production.ini -b 0.0.0.0:$PORT --log-file -
