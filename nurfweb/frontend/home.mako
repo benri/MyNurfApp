@@ -4,11 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="pyramid web application">
-    <meta name="author" content="Pylons Project">
-    <link rel="shortcut icon" href="${request.static_url('nurfweb:static/pyramid-16x16.png')}">
+    <meta name="description" content="nurf web application">
+##     <link rel="shortcut icon" href="${request.static_url('nurfweb:static/pyramid-16x16.png')}">
 
-    <title>Starter Scaffold for The Pyramid Web Framework</title>
+    <title>Nurf</title>
 
     <!-- Bootstrap core CSS -->
     <link href="//oss.maxcdn.com/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
@@ -27,9 +26,9 @@
 
     <div class="starter-template">
       <div class="container">
-        <div class="row">
+        <div class="row" style="margin-bottom: 100px;">
           <div class="col-md-2">
-            <img class="logo img-responsive" src="${request.static_url('nurfweb:static/pyramid.png')}" alt="pyramid web framework">
+##             <img class="logo img-responsive" src="${request.static_url('nurfweb:static/pyramid.png')}" alt="pyramid web framework">
           </div>
           <div class="col-md-10">
             <div class="content">
@@ -37,6 +36,13 @@
               <p class="lead">Welcome to <span class="font-normal">${project}</span>, an&nbsp;application generated&nbsp;by<br>the <span class="font-normal">Pyramid Web Framework 1.5.2</span>.</p>
             </div>
           </div>
+        </div>
+        <div class="row">
+            <div class="links">
+                <ul>
+                    <li class=""><a href="/data">Data</a></li>
+                </ul>
+            </div>
         </div>
         <div class="row">
           <div class="links">

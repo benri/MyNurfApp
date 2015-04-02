@@ -2,8 +2,8 @@
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  color: #ffffff;
-  background: #bc2131;
+  color: #333333;
+  background: #ffffff;
 }
 h1,
 h2,
@@ -38,19 +38,19 @@ p {
 }
 .starter-template .content h1 .smaller {
   font-size: 40px;
-  color: #f2b7bd;
+  color: #666666;
 }
 .starter-template .content .lead {
   font-size: 25px;
-  color: #f2b7bd;
+  color: #555555;
 }
 .starter-template .content .lead .font-normal {
-  color: #ffffff;
+  color: #333333;
 }
 .starter-template .links {
   float: right;
   right: 0;
-  margin-top: 125px;
+  margin-top: 25px;
 }
 .starter-template .links ul {
   display: block;
@@ -69,26 +69,26 @@ p {
   margin-right: 0;
 }
 .starter-template .links ul li.current-version {
-  color: #f2b7bd;
+  color: #666666;
   font-weight: 400;
 }
 .starter-template .links ul li a {
-  color: #ffffff;
+  color: #333333;
 }
 .starter-template .links ul li a:hover {
   text-decoration: underline;
 }
 .starter-template .links ul li .icon-muted {
-  color: #eb8b95;
+  color: #555555;
   margin-right: 5px;
 }
 .starter-template .links ul li:hover .icon-muted {
-  color: #ffffff;
+  color: #333333;
 }
 .starter-template .copyright {
   margin-top: 10px;
   font-size: 0.9em;
-  color: #f2b7bd;
+  color: #555555;
   text-transform: lowercase;
   float: right;
   right: 0;

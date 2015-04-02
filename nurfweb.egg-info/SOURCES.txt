@@ -13,8 +13,11 @@ nurfweb.egg-info/entry_points.txt
 nurfweb.egg-info/not-zip-safe
 nurfweb.egg-info/top_level.txt
 nurfweb/endpoints/__init__.py
+nurfweb/endpoints/data.py
 nurfweb/endpoints/home.py
+nurfweb/frontend/__init__.py
 nurfweb/frontend/home.mako
+nurfweb/frontend/pages/data/data.mako
 nurfweb/static/pyramid-16x16.png
 nurfweb/static/pyramid.png
 nurfweb/static/theme.css

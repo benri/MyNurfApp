@@ -1,2 +1,2 @@
 # MyNurfApp
-Application that plays with the Riot Games API, specifically for NURF.
+Application that plays with the Riot Games API, specifically for URF.
