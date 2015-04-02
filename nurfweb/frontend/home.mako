@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="nurf web application">
-##     <link rel="shortcut icon" href="${request.static_url('nurfweb:static/pyramid-16x16.png')}">
+    <link rel="shortcut icon" href="${request.static_path('nurfweb:static/pyramid-16x16.png')}">
 
     <title>Nurf</title>
 
@@ -13,7 +13,7 @@
     <link href="//oss.maxcdn.com/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this scaffold -->
-    <link href="${request.static_url('nurfweb:static/theme.css')}" rel="stylesheet">
+    <link href="${request.static_path('nurfweb:static/theme.css')}" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -28,7 +28,7 @@
       <div class="container">
         <div class="row" style="margin-bottom: 100px;">
           <div class="col-md-2">
-##             <img class="logo img-responsive" src="${request.static_url('nurfweb:static/pyramid.png')}" alt="pyramid web framework">
+            <img class="logo img-responsive" src="${request.static_path('nurfweb:static/pyramid.png')}" alt="pyramid web framework">
           </div>
           <div class="col-md-10">
             <div class="content">
